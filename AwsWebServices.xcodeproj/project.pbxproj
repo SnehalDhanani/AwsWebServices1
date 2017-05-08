@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AA5691FAAAC003FFAD6AE9D /* libPods-AwsWebServicesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DBE378C59C4EBB9F96106A2 /* libPods-AwsWebServicesTests.a */; };
+		22C2CC2BC847AC26030A803A /* libPods-AwsWebServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AF0D4D857FD26838DB85D8 /* libPods-AwsWebServices.a */; };
 		4AB58BDA1EB1145F00B57367 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB58BD91EB1145F00B57367 /* main.m */; };
 		4AB58BDD1EB1145F00B57367 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB58BDC1EB1145F00B57367 /* AppDelegate.m */; };
 		4AB58BE01EB1145F00B57367 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB58BDF1EB1145F00B57367 /* ViewController.m */; };
@@ -15,6 +17,7 @@
 		4AB58BE81EB1145F00B57367 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AB58BE61EB1145F00B57367 /* LaunchScreen.storyboard */; };
 		4AB58BF31EB1145F00B57367 /* AwsWebServicesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB58BF21EB1145F00B57367 /* AwsWebServicesTests.m */; };
 		4AB58BFE1EB1145F00B57367 /* AwsWebServicesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB58BFD1EB1145F00B57367 /* AwsWebServicesUITests.m */; };
+		AA2716A3BA9F4E87898C9EED /* libPods-AwsWebServicesUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30961FA84522DE9C1B3ED3C3 /* libPods-AwsWebServicesUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1DBCB02FBE1882AA5C31BDBF /* Pods-AwsWebServices.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwsWebServices.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwsWebServices/Pods-AwsWebServices.release.xcconfig"; sourceTree = "<group>"; };
+		29AF0D4D857FD26838DB85D8 /* libPods-AwsWebServices.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AwsWebServices.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30961FA84522DE9C1B3ED3C3 /* libPods-AwsWebServicesUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AwsWebServicesUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A5531BDB25C2C467B61520C /* Pods-AwsWebServicesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwsWebServicesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwsWebServicesTests/Pods-AwsWebServicesTests.release.xcconfig"; sourceTree = "<group>"; };
 		4AB58BD51EB1145F00B57367 /* AwsWebServices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwsWebServices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AB58BD91EB1145F00B57367 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4AB58BDB1EB1145F00B57367 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,11 @@
 		4AB58BF91EB1145F00B57367 /* AwsWebServicesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwsWebServicesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AB58BFD1EB1145F00B57367 /* AwsWebServicesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AwsWebServicesUITests.m; sourceTree = "<group>"; };
 		4AB58BFF1EB1145F00B57367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53906B2ADE6F231B1AEAF72B /* Pods-AwsWebServicesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwsWebServicesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwsWebServicesTests/Pods-AwsWebServicesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		86B6D07B5D62292C51670088 /* Pods-AwsWebServices.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwsWebServices.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwsWebServices/Pods-AwsWebServices.debug.xcconfig"; sourceTree = "<group>"; };
+		8DBE378C59C4EBB9F96106A2 /* libPods-AwsWebServicesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AwsWebServicesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F351CC2A07EE1053A0CC5F9A /* Pods-AwsWebServicesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwsWebServicesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwsWebServicesUITests/Pods-AwsWebServicesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F89FAC269F7648DD6FB5E515 /* Pods-AwsWebServicesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwsWebServicesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwsWebServicesUITests/Pods-AwsWebServicesUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22C2CC2BC847AC26030A803A /* libPods-AwsWebServices.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AA5691FAAAC003FFAD6AE9D /* libPods-AwsWebServicesTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA2716A3BA9F4E87898C9EED /* libPods-AwsWebServicesUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				4AB58BF11EB1145F00B57367 /* AwsWebServicesTests */,
 				4AB58BFC1EB1145F00B57367 /* AwsWebServicesUITests */,
 				4AB58BD61EB1145F00B57367 /* Products */,
+				C9E2EF55AFD08FCA5226C223 /* Pods */,
+				83B02B12A745A7C68FABE2EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +157,29 @@
 			path = AwsWebServicesUITests;
 			sourceTree = "<group>";
 		};
+		83B02B12A745A7C68FABE2EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29AF0D4D857FD26838DB85D8 /* libPods-AwsWebServices.a */,
+				8DBE378C59C4EBB9F96106A2 /* libPods-AwsWebServicesTests.a */,
+				30961FA84522DE9C1B3ED3C3 /* libPods-AwsWebServicesUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9E2EF55AFD08FCA5226C223 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86B6D07B5D62292C51670088 /* Pods-AwsWebServices.debug.xcconfig */,
+				1DBCB02FBE1882AA5C31BDBF /* Pods-AwsWebServices.release.xcconfig */,
+				53906B2ADE6F231B1AEAF72B /* Pods-AwsWebServicesTests.debug.xcconfig */,
+				4A5531BDB25C2C467B61520C /* Pods-AwsWebServicesTests.release.xcconfig */,
+				F351CC2A07EE1053A0CC5F9A /* Pods-AwsWebServicesUITests.debug.xcconfig */,
+				F89FAC269F7648DD6FB5E515 /* Pods-AwsWebServicesUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AB58C021EB1145F00B57367 /* Build configuration list for PBXNativeTarget "AwsWebServices" */;
 			buildPhases = (
+				99E324FAA2DE693DB4490290 /* [CP] Check Pods Manifest.lock */,
 				4AB58BD11EB1145F00B57367 /* Sources */,
 				4AB58BD21EB1145F00B57367 /* Frameworks */,
 				4AB58BD31EB1145F00B57367 /* Resources */,
+				B0CEFCD17E9D7A7842626F4E /* [CP] Embed Pods Frameworks */,
+				E88F94CBE94359BF120D094C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AB58C051EB1145F00B57367 /* Build configuration list for PBXNativeTarget "AwsWebServicesTests" */;
 			buildPhases = (
+				65F9CC7929B86D9C29538750 /* [CP] Check Pods Manifest.lock */,
 				4AB58BEA1EB1145F00B57367 /* Sources */,
 				4AB58BEB1EB1145F00B57367 /* Frameworks */,
 				4AB58BEC1EB1145F00B57367 /* Resources */,
+				A7798D24CA272758B7255C6B /* [CP] Embed Pods Frameworks */,
+				177073D7A9C069CBAD3C66F2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AB58C081EB1145F00B57367 /* Build configuration list for PBXNativeTarget "AwsWebServicesUITests" */;
 			buildPhases = (
+				301722D4E312A5F63FC6D0CE /* [CP] Check Pods Manifest.lock */,
 				4AB58BF51EB1145F00B57367 /* Sources */,
 				4AB58BF61EB1145F00B57367 /* Frameworks */,
 				4AB58BF71EB1145F00B57367 /* Resources */,
+				8EDD2B01DA8E8FF5604BBEC2 /* [CP] Embed Pods Frameworks */,
+				3ECC1CEC1260F73F6D46F097 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -212,13 +261,13 @@
 					};
 					4AB58BED1EB1145F00B57367 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 7B7U2X95FN;
+						DevelopmentTeam = 5QFMWSJCL3;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 4AB58BD41EB1145F00B57367;
 					};
 					4AB58BF81EB1145F00B57367 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 7B7U2X95FN;
+						DevelopmentTeam = 5QFMWSJCL3;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 4AB58BD41EB1145F00B57367;
 					};
@@ -270,6 +319,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		177073D7A9C069CBAD3C66F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AwsWebServicesTests/Pods-AwsWebServicesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		301722D4E312A5F63FC6D0CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3ECC1CEC1260F73F6D46F097 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AwsWebServicesUITests/Pods-AwsWebServicesUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65F9CC7929B86D9C29538750 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8EDD2B01DA8E8FF5604BBEC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AwsWebServicesUITests/Pods-AwsWebServicesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99E324FAA2DE693DB4490290 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A7798D24CA272758B7255C6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AwsWebServicesTests/Pods-AwsWebServicesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0CEFCD17E9D7A7842626F4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AwsWebServices/Pods-AwsWebServices-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E88F94CBE94359BF120D094C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AwsWebServices/Pods-AwsWebServices-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4AB58BD11EB1145F00B57367 /* Sources */ = {
@@ -427,6 +614,7 @@
 		};
 		4AB58C031EB1145F00B57367 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86B6D07B5D62292C51670088 /* Pods-AwsWebServices.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7B7U2X95FN;
@@ -439,6 +627,7 @@
 		};
 		4AB58C041EB1145F00B57367 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DBCB02FBE1882AA5C31BDBF /* Pods-AwsWebServices.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7B7U2X95FN;
@@ -451,9 +640,10 @@
 		};
 		4AB58C061EB1145F00B57367 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53906B2ADE6F231B1AEAF72B /* Pods-AwsWebServicesTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 7B7U2X95FN;
+				DEVELOPMENT_TEAM = 5QFMWSJCL3;
 				INFOPLIST_FILE = AwsWebServicesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.billionaire.AwsWebServicesTests;
@@ -464,9 +654,10 @@
 		};
 		4AB58C071EB1145F00B57367 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A5531BDB25C2C467B61520C /* Pods-AwsWebServicesTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 7B7U2X95FN;
+				DEVELOPMENT_TEAM = 5QFMWSJCL3;
 				INFOPLIST_FILE = AwsWebServicesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.billionaire.AwsWebServicesTests;
@@ -477,8 +668,9 @@
 		};
 		4AB58C091EB1145F00B57367 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F351CC2A07EE1053A0CC5F9A /* Pods-AwsWebServicesUITests.debug.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 7B7U2X95FN;
+				DEVELOPMENT_TEAM = 5QFMWSJCL3;
 				INFOPLIST_FILE = AwsWebServicesUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.billionaire.AwsWebServicesUITests;
@@ -489,8 +681,9 @@
 		};
 		4AB58C0A1EB1145F00B57367 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F89FAC269F7648DD6FB5E515 /* Pods-AwsWebServicesUITests.release.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 7B7U2X95FN;
+				DEVELOPMENT_TEAM = 5QFMWSJCL3;
 				INFOPLIST_FILE = AwsWebServicesUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.billionaire.AwsWebServicesUITests;

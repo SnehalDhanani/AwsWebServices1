@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "AWSCore.h"
+#import "AWSCognito.h"
+
+
 
 @interface AppDelegate ()
 

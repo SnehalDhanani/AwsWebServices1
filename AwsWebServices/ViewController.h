@@ -7,8 +7,26 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AWSCore.h"
+#import "AWSS3.h"
 
-@interface ViewController : UIViewController
+
+@interface ViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+
+
+
+
+@property (nonatomic, strong) UIView *loadingBg;
+@property (nonatomic, strong) UIView *progressView;
+@property (nonatomic, strong) UILabel *progressLabel;
+@property (nonnull, strong) NSURL *selectedImageUrl;
+
+
+@property (nonatomic,strong) AWSS3TransferManagerUploadRequest *uploadRequest;
+@property (nonatomic) uint64_t filesize;
+@property (nonatomic) uint64_t sizeUploaded;
+
+- (IBAction)updateBtn:(id)sender;
 
 
 @end

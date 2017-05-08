@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AWSCore/AWSCore.h>
+#import <AWSCognito/AWSCognito.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
