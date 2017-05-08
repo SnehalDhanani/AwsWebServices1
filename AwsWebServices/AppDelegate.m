@@ -23,7 +23,7 @@
     
     AWSCognitoCredentialsProvider *credentialsProvider = [[AWSCognitoCredentialsProvider alloc]
                                                           initWithRegionType:AWSRegionUSWest2
-                                                          identityPoolId:@"us-west-2:02da20f3-95fe-4325-88c1-505b61f1dc10"];
+                                                          identityPoolId:@""];
     
     AWSServiceConfiguration *configuration = [[AWSServiceConfiguration alloc] initWithRegion:AWSRegionUSWest2 credentialsProvider:credentialsProvider];
     
